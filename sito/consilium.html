@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>consilium, la verità sulla politici</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=MuseoModerno:wght@300&family=Red+Rose&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stilecon.css" type="text/css">
+
+<style>
+
+body{margin: 0; background-image: url("caravattenere.png") ;z-index: -1; background-size: 40%;}
+
+
+
+.logo{font-size: 30px; padding: 17px 10px 10px 10px;
+  font-family: 'MuseoModerno', cursive; border-left: 5px solid red;
+  border-right: 5px solid blue;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  padding: 30px; background: white}
+
+
+
+
+.titolo1{  font-family: 'Red Rose', cursive;
+word-spacing: 3px;
+text-align: center;
+padding: 30px;
+background: black;
+color: white
+}
+
+.paragrafo1{ word-break:keep-all; word-spacing: 4px; font-family: 'Open Sans', sans-serif;
+font-family: 'Red Rose', cursive; }
+
+*{box-sizing: border-box;}
+
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif; background-color:
+}
+
+ul.nav{list-style-type: none;
+  background-image:  url("patternstelle.jpg");
+   overflow: hidden;
+   top: 0;
+   margin: 0;padding: 0;
+    position: sticky;
+   width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
+}
+li.nav{float: left}
+li a.nav{text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 14px 25px ;
+  display: block; font-size: 15px; font-family: 'Muli', sans-serif;
+  color: white;
+}
+li a.nav:hover{border-top: 1px gray solid;border-bottom: 1px gray solid}
+
+@media screen and (max-width: 700px) {
+  li.nav, ul.nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .titolosin{
+    display: none;
+  }
+}
+
+
+
+.topnav {
+  overflow: hidden;
+   width: 100%;
+background-image: url("patternstelle.jpg");
+  position: fixed;
+  z-index: 4
+}
+
+.topnav #myLinks {
+  display: none;
+
+}
+
+
+.topnav a {
+  background: black;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a:hover.icon{background: grey}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover{background: red}
+
+.active {
+  background: red ;
+  color: white;
+  width: 20px;
+}
+
+@media screen and (min-width: 700px) {
+   .topnav{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .{ width: 100%;
+
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .flip-card-container{ width: 100%;
+
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .logo{ display: none;
+
+  }
+}
+
+@media screen and (max-width: 277px) {
+  .titolosin{
+    display: none
+  }
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%; background: red}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+.titolosin{ font-size: 25px;
+   letter-spacing: 10px;
+   font-family: 'MuseoModerno', cursive;
+    padding-top:  3px; margin-right: 10px;
+     background: black;
+     color: white
+}
+
+
+.flip-card-container {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+  z-index: 2; background:
+
+}
+
+.flip-card {
+  position: relative;
+  width: 350px;
+  height: 370px;
+  display: inline-block;
+  margin: 0 10px 20px 10px;
+  border: 4px solid rgb(245, 15, 107);
+  cursor: default;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  box-shadow:  10px 8px 18px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  z-index: 2;
+border-radius: 15px
+
+}
+
+.flip-card:hover {
+  -webkit-transform: rotate3d(0,1,0,-180deg);
+  -moz-transform: rotate3d(0,1,0,-180deg);
+  -o-transform: rotate3d(0,1,0,-180deg);
+  -ms-transform: rotate3d(0,1,0,-180deg);
+  transform: rotate3d(0,1,0,-180deg);
+  z-index: 2
+}
+
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 15px
+
+}
+
+
+
+.flip-card-back {
+  background-color: #fcfcfc;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate3d(0,1,0,180deg);
+  -moz-transform: rotate3d(0,1,0,180deg);
+  -o-transform: rotate3d(0,1,0,180deg);
+  -ms-transform: rotate3d(0,1,0,180deg);
+  transform: rotate3d(0,1,0,180deg);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  z-index: 2;
+  background: black;
+  color: white
+}
+
+.flip-card-back h2 {
+  margin: 0 15px;
+  padding: 40px 0 20px 0;
+  font-size: 14px;
+  word-break:keep-all; word-spacing: 4px; font-family: 'Open Sans', sans-serif;
+ font-family: 'Red Rose', cursive;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
+  z-index: 2
+
+}
+
+.flip-card-back p {
+  color: #555;
+  margin: 0 10px;
+  padding: 15px 5px;
+  border-top: 1px solid #000;
+  font-size: 12px;
+  font-style: italic;
+  z-index: 2
+}
+
+.flip-card-back a {
+  display: block;
+  color: rgba(85,85,85, 0.8);
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 2
+}
+
+.flip-card-back a:hover {
+  color: rgba(158,8,36,0.7);
+}
+
+</style>
+
+</head>
+<body>
+
+<div>
+<div class="titolosin" style="float: right">
+  la verita sulla politica
+</div>
+</div>
+
+<!-- Simulate a smartphone / tablet -->
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <p class="active">C</p>
+  <div id="myLinks">
+    <a href="merkel-card.html">politici</a>
+    <a href="#contact">paesi</a>
+    <a href="#about">buffoni della settimana</a>
+    <a href="#about">buffoni della settimana</a>
+    <a href="#about">classifiche</a>
+
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<!-- End smartphone / tablet look -->
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<ul class="nav">
+    <li class="nav"><a class="nav" href="scheletro.html" target="_blank">paesi</a></li>
+    <li class="nav"><a href="merkel-card.html" class="nav">classifiche</a></li>
+    <li class="nav"><a href="#contact" class="nav">politici</a></li>
+    <li class="nav"><a href="#about" class="nav">buffoni della settimana</a></li>
+    <li class="nav"><a href="#about" class="nav">virtuosi della settimana</a></li>
+  </ul>
+<br>
+
+
+<div class="row">
+</div>
+  <div class="col-3 col-s-3 ">
+</div>
+
+
+
+    <div class="col-6 col-s-9 giallo">
+      <div class="flip-card-container paragrafo1">
+      	<div class="flip-card"  ontouchstart="this.classList.toggle('hover');" >
+      		<div id="flip-bob" class="flip-card-front titolo1"><h1> cos'è consilium?</h1>
+            <br>
+            <br>
+            <br>
+            <i style="font-size:40px" class="fa">&#xf021;</i>
+</p> </div>
+      		<div class="flip-card-back">
+          <br>
+            <h2 class="paragrafo1">consilium e un sito che offre informazione sui politici
+              in base ad alcuni paramatri, ad esempio la coerenza, i successi e gli insuccessi raggiunti,
+              inoltre sono anche presenti le classifiche settimanali, mensili e annui. ogni
+              politico avrà una scheda personale con le valutazioni, le valutazione saranno completamnte
+              imparziali e senza colore politico, i soggetti saranno valutatai in base a dati oggettivi, chi ve lo assicura? nessuno,
+              però sapiate che abbiamo perso la fiducia in qualsiasi  politico.</h2>
+
+      		</div>
+      	</div>
+      </div>
+
+  </div>
+
+  <div class="col-3 col-s-12">
+  hh
+  </div>
+
+  <!-- Material disabled -->
+  <div class="switch">
+    <label>
+      Off
+      <input type="checkbox" disabled>
+      <span class="lever"></span> On
+    </label>
+  </div>
+
+</body>
+</html>
